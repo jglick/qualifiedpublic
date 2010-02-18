@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="qualifiedpublic" default="default" basedir=".">
+    <import file="nbproject/build-impl.xml"/>
+    <!-- https://netbeans.org/bugzilla/show_bug.cgi?id=180034 -->
+    <target name="test">
+        <antcall target="clean"/>
+        <antcall target="compile-test"/>
+    </target>
+</project>
